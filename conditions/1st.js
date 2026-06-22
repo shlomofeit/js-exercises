@@ -42,15 +42,18 @@ if (num > 0) {
 const a = 10;
 const b = 20;
 
-if (a > b) {
-  console.log("a");
-} else {
-  if (a == b) {
-    console.log("equal");
-  } else {
-    console.log("b");
-  }
-}
+const result_5 = a > b ? "a" : a == b ? "equal" : "b";
+
+// if (a > b) {
+//   console.log("a");
+// } else {
+//   if (a == b) {
+//     console.log("equal");
+//   } else {
+//     console.log("b");
+//   }
+// }
+console.log(result_5);
 
 // תרגיל 6
 const password = "1234";
