@@ -62,8 +62,14 @@ const spt2 = "apple,banana,grape";
 console.log(spt2.split(",", 2));
 
 // תרגיל 14
+const inx = "banana";
+
+console.log(inx.indexOf("a"));
 
 // תרגיל 15
+const inxE = "banana";
+
+console.log(inxE.lastIndexOf("a"));
 
 // תרגיל 16
 // skip
