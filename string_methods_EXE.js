@@ -52,8 +52,14 @@ const repAll = "banana";
 console.log(repAll.replaceAll("a", "o"));
 
 // תרגיל 12
+const spt = "one two three";
+
+console.log(spt.split(" "));
 
 // תרגיל 13
+const spt2 = "apple,banana,grape";
+
+console.log(spt2.split(",", 2));
 
 // תרגיל 14
 
