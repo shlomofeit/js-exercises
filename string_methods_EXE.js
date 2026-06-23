@@ -32,8 +32,14 @@ const strToSliceEnd = "JavaScript";
 console.log(strToSliceEnd.slice(4));
 
 // תרגיל 8
+const startW = "https://example.com";
+
+console.log(startW.startsWith("https"));
 
 // תרגיל 9
+const endW = "mywebsite.org";
+
+console.log(endW.endsWith(".com"));
 
 // תרגיל 10
 
