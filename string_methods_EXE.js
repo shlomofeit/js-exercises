@@ -91,8 +91,15 @@ const crtE = "Hello";
 console.log(crtE.at(crt.length - 1));
 
 // תרגיל 21
+const firstStr = "שלום";
+const secondStr = "עולם";
+
+console.log(firstStr.concat(" ", secondStr));
 
 // תרגיל 22
+const sub = "JavaScript";
+
+console.log(sub.substring(2, 6));
 
 // תרגיל 23
 // skip
