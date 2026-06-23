@@ -13,8 +13,16 @@ function trimStr(str) {
 console.log(trimStr("  hello  world   "));
 
 // תרגיל 3
+const emailValidation = (email) => email.includes("@");
+
+console.log(emailValidation("abc@gmail.com"));
 
 // תרגיל 4
+const endW = function (email) {
+  return email.endsWith(".com");
+};
+
+console.log(endW("abc@gmail.com"));
 
 // תרגיל 5
 
