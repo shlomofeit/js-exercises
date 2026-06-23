@@ -25,8 +25,16 @@ const endW = function (email) {
 console.log(endW("abc@gmail.com"));
 
 // תרגיל 5
+const firstName = (name) => name.slice(0, name.indexOf(" "));
+
+console.log(firstName("Shlomo Feit"));
 
 // תרגיל 6
+function strToArray(name) {
+  return name.split(" ");
+}
+
+console.log(strToArray("Shlomo Feit"));
 
 // תרגיל 7
 
