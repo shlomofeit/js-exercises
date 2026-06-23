@@ -22,8 +22,14 @@ console.log(lower.toLowerCase());
 // skip
 
 // תרגיל 6
+const strToSlice = "JavaScript";
+
+console.log(strToSlice.slice(0, 4));
 
 // תרגיל 7
+const strToSliceEnd = "JavaScript";
+
+console.log(strToSliceEnd.slice(4));
 
 // תרגיל 8
 
