@@ -81,8 +81,14 @@ console.log(inxE.lastIndexOf("a"));
 // skip
 
 // תרגיל 19
+const crt = "Hello";
+
+console.log(crt.charAt(0));
 
 // תרגיל 20
+const crtE = "Hello";
+
+console.log(crtE.at(crt.length - 1));
 
 // תרגיל 21
 
