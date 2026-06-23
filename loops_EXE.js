@@ -114,11 +114,11 @@ import input from "analiza-sync";
 // }
 
 // // תרגיל 14
-// let password = "";
+let password = "";
 
-// while (password != "1234") {
-//   password = input("password: ");
-// }
+while (password != "1234") {
+  password = input("password: ");
+}
 
 // // תרגיל 15
 // let count = 0;
@@ -214,17 +214,17 @@ import input from "analiza-sync";
 // }
 
 // תרגיל 25
-const students = [
-  { name: "דנה", grade: 55 },
-  { name: "יוסי", grade: 90 },
-  { name: "מיכל", grade: 78 },
-  { name: "רון", grade: 45 },
-];
+// const students = [
+//   { name: "דנה", grade: 55 },
+//   { name: "יוסי", grade: 90 },
+//   { name: "מיכל", grade: 78 },
+//   { name: "רון", grade: 45 },
+// ];
 
-for (const student of students) {
-  if (student.grade >= 60) {
-    console.log(student);
-  }
+// for (const student of students) {
+//   if (student.grade >= 60) {
+//     console.log(student);
+//   }
 
-  if (student.grade == 100) break;
-}
+//   if (student.grade == 100) break;
+// }
