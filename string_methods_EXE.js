@@ -42,8 +42,14 @@ const endW = "mywebsite.org";
 console.log(endW.endsWith(".com"));
 
 // תרגיל 10
+const rep = "שלום עולם";
+
+console.log(rep.replace("שלום", "היי"));
 
 // תרגיל 11
+const repAll = "banana";
+
+console.log(repAll.replaceAll("a", "o"));
 
 // תרגיל 12
 
