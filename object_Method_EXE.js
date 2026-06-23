@@ -37,8 +37,18 @@ function strToArray(name) {
 console.log(strToArray("Shlomo Feit"));
 
 // תרגיל 7
+function alwaysGood(bad) {
+  return bad.replace("bad", "good");
+}
+
+console.log(alwaysGood("evrything is bad"));
 
 // תרגיל 8
+function manyA(str) {
+  return str.split("a").length - 1;
+}
+
+console.log(manyA("banana"));
 
 // תרגיל 9
 
