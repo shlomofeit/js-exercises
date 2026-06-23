@@ -9,8 +9,14 @@ const email = "user@gmail.com";
 console.log(email.includes("@"));
 
 // תרגיל 3
+const upper = "javascript";
+
+console.log(upper.toUpperCase());
 
 // תרגיל 4
+const lower = "HELLO WORLD";
+
+console.log(lower.toLowerCase());
 
 // תרגיל 5
 // skip
